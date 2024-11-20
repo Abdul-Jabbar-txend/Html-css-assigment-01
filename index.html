@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-container">
+        <h1>Photo Gallery</h1>
+        <nav style="position: sticky">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <marquee style="background-color: #70c3f4; color: white" direction="left"
+      >Welcome to My Photo Gallery ...!
+    </marquee>
+    <!-- Main Section -->
+    <div class="main-container">
+      <div class="grid-container">
+        <!-- Image Gallery -->
+        <div class="grid">
+          <img src="imgs/01.jpg" alt="Hay Bales." />
+          <img src="imgs/02.jpg" alt="Hay Bales." />
+          <img src="imgs/04.jpg" alt="Hay Bales." />
+          <img src="imgs/03.jpg" alt="Hay Bales." />
+          <img src="imgs/05.jpg" alt="Hay Bales." />
+          <img src="imgs/06.jpg" alt="Hay Bales." />
+          <img src="imgs/07.jpg" alt="Hay Bales." />
+          <img src="imgs/08.jpg" alt="Hay Bales." />
+          <img src="imgs/09.jpg" alt="Hay Bales." />
+        </div>
+
+        <div class="blogs">
+          <h1>Latest Blog Posts</h1>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+          </p>
+          <ul>
+            <li class="blog-post">
+              <h3>Title of Blog Post 1</h3>
+
+              <p>
+                This is a short introduction to the first blog post. It gives an
+                overview of what the post is about.
+              </p>
+            </li>
+            <li class="blog-post">
+              <h3>Title of Blog Post 2</h3>
+
+              <p>
+                This is a brief summary of the second blog post. It introduces
+                the topic and includes a link to the full article.
+              </p>
+            </li>
+            <li class="blog-post">
+              <h3>Title of Blog Post 3</h3>
+              <p>
+                Here's a quick description of the third blog post. It's a teaser
+                for the full content.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Aside (Search Form) -->
+      </div>
+
+      <aside class="aside">
+        <form action="">
+          <label for="search">First Name </label>
+          <input type="text" id="search" placeholder="Enter your Name" />
+          <label for="search">Last Name </label>
+          <input type="text" id="search" placeholder="Enter your Name" />
+          <label for="search">Email </label>
+          <input type="email" id="search" placeholder="Enter your Email" />
+
+          <label for="search">Enter Your Country </label>
+          <input type="text" id="search" placeholder="Enter your Country" />
+        </form>
+        <button
+          style="
+            padding: 5px;
+            margin: 5px;
+            background-color: #70c3f4;
+
+            color: white;
+            border: white;
+            border-radius: 4px;
+            cursor: pointer;
+          "
+        >
+          Submit
+        </button>
+      </aside>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

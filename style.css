@@ -1,0 +1,86 @@
+/* Header */
+header {
+  background-color: #b9d9eb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+/* Grid for main-container */
+
+.main-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+/* Style for the image gallery */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: start;
+  align-items: start;
+  justify-items: start;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+.aside {
+  background-color: #b9d9eb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.aside form {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.aside input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 98%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: #b9d9eb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
